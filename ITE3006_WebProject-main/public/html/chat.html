@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chat</title>
+    <script src="https://kit.fontawesome.com/22b529d74e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/chat.css">
+    <link rel="shortcut icon" href="../images/title_icon.ico" type="image/x-icon">
+</head>
+<body>
+    <header></header>
+    <section>
+       <div class="chat_container">
+            <div class="chat_list_container">
+                <select class="chat_list" name="chat_list" id="chat_list">
+                    <optgroup>
+                        <option value="inbox">Inbox</option>
+                        <option value="sell">Sell</option>
+                        <option value="buy">Buy</option>
+                    </optgroup>
+                </select>
+                <hr>
+                <div class="chat_user_list"></div>
+            </div>
+            <div class="chat_message_container">
+                <div class="chat_user_header">
+                    <img class="user_icon" src="../images/image0.jpg">
+                    <div class="user_message_header_container">
+                        <span class="user_messaged_name">LouisKwok</span>
+                        <span class="last_time">在線上中 🟢</span>
+                    </div>
+                    <img class="product_photo" src="../images/Macbook.jpg">
+                </div>
+                <div class="chat_massage_loop">
+                    <div class="recycle_message_container">
+                        <img class="recycle_user_icon" src="../images/image0.jpg">
+                        <span class="recycle_message">I'm interested!</span>
+                    </div>
+                    <div class="send_message_container">
+                        <span class="send_message">Okar</span>
+                    </div>
+                    <div class="send_message_container">
+                        <span class="send_message">3000THX</span>
+                    </div>
+                    <div class="recycle_message_container">
+                        <img class="recycle_user_icon" src="../images/image0.jpg">
+                        <span class="recycle_message">Good!</span>
+                    </div>
+                </div>
+                <div class="sent_message_input">
+                    <input class="message_input" type="text" placeholder="send your message">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer></footer>
+    <script src="../js/chat.js"></script>
+    <script src="../js/navbar.js"></script>
+</body>
+</html>

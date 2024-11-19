@@ -1,0 +1,159 @@
+/* box */
+  .box {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    padding: 10px 70px;
+  }
+  
+  .function-box {
+    display: flex;
+    justify-content: center;
+    background-color: #CEE8EA;
+    border-radius: 70px;
+    width: 100%;
+  }
+  
+  .button, .buttonR {
+    border-radius: 70px;
+    font-size: 16px;
+    padding: 10px 70px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .button {
+    background-color: #3A9CA3;
+  }
+  
+  .buttonR {
+    background-color: #A33A3A;
+  }
+  
+  .buttonR:hover, .button:hover {
+    background-color: #2E7B84;
+  }
+  
+  .size {
+    padding: 10px 5%;
+  }
+  
+  /* adv */
+  .image-box {
+    display: flex;
+    justify-content: center;
+    margin: 15px 70px;
+  }
+  
+  .adv-box-display {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .adv-box {
+    border-radius: 70px;
+    font-size: 16px;
+    align-items: center;
+  }
+  
+  .adv-display {
+    border-radius: 30px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  /* product */
+  .product-box-display {
+    display: flex;
+    justify-content: center;
+    margin: 6px 50px;
+    flex-wrap: wrap;
+  }
+  
+  .product-box {
+    display: flex;
+    flex-direction: column;
+    background-color: #CEE8EA;
+    border-radius: 30px;
+    margin: 37px;
+  }
+  
+  .product-box:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product-image {
+    border-radius: 30px 30px 0 0;
+    width: 200px;
+    height: 160px;
+    cursor: pointer;
+    object-fit: cover;
+  }
+  
+  .product-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 15px;
+    height: 80px;
+  }
+  
+  .product-name {
+    font-weight: bold;
+  }
+  
+  .product-cost {
+    font-size: 14px;
+  }
+  
+  .heart-icon {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 20px 10px 0;
+    font-size: 24px;
+    color: #A33A3A;
+    cursor: pointer;
+  }
+  
+@media (max-width: 785px) {
+    .box {
+      padding: 10px 20px;
+    }
+  
+    .function-box {
+      flex-direction: column;
+      gap: 10px;
+      border-radius: 20px;
+    }
+  
+    .button,
+    .buttonR {
+      font-size: 14px;
+      padding: 10px 50px;
+      width: 100%;
+    }
+  
+    .size {
+      padding: 10px 10%;
+    }
+  
+    .image-box {
+      margin: 15px 20px;
+    }
+    .image-box {
+        display: flex;
+        justify-content: center;
+        margin: 20px 70px;
+      }
+      
+    .adv-box-display {
+        margin-top: 10px;
+        flex-direction: column;
+    }
+  }
+  

@@ -1,0 +1,137 @@
+body {
+  background-color: #4A5564;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+/* About Us Section */
+#about-us {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 37px;
+}
+
+.about-us-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 70px;
+    max-width: 700px;
+    text-align: center;
+}
+
+#about-us h2 {
+    font-size: 36px;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+#about-us p {
+    font-size: 16px;
+    color: #FFF;
+    line-height: 1.5;
+}
+
+/* header */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+.brand {
+    font-size: 30px;
+    color: #3A9CA3;
+    text-decoration: none;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+.nav-links li a:hover {
+    color: #3A9CA3;
+}
+
+/* section */
+
+.size{
+    padding: 3% 5px; 
+}
+.box-image {
+    width: 50%;
+    height: 70%;
+    border-radius: 70px;
+    padding: 0 30px;
+}
+
+/* footer */
+.copyright-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 0 5%; 
+    background-color: #182627;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+}
+@media (max-width: 600px) {
+    .navbar {
+      flex-direction: column;
+      padding: 20px 10px;
+    }
+  
+    .nav-links {
+      gap: 15px;
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+    }
+  
+    .brand {
+      font-size: 24px;
+    }
+  
+    .nav-links li a {
+      font-size: 14px;
+    }
+  
+    .box {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .box-image {
+      width: 80%;
+      height: auto;
+      padding: 0;
+      margin-bottom: 20px;
+    }
+  
+    .box-text {
+      font-size: 24px;
+    }
+  
+    .use-now-button {
+      font-size: 14px;
+      padding: 10px 24px;
+    }
+  
+    .copyright-container {
+      font-size: 12px;
+      padding: 0 10px;
+    }
+  }

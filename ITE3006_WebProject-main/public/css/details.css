@@ -1,0 +1,97 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.size {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #cee8ea;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+title, subtitle {
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+label.checkbox-label {
+    margin-left: 10px;
+}
+
+.textarea {
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.description {
+    border-radius: 15px;
+    padding: 30px;
+}
+.detail-select{
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.submit-button {
+    background-color:#3A9CA3;
+    border: none;
+    border-radius: 70px;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #2E7B84;
+}
+
+.select-button {
+    justify-content: center;
+    background-color: #3A9CA3;
+    border-radius: 70px;
+    font-size: 16px;
+    color: white;
+    padding: 10px 32px;
+    cursor: pointer;
+    width: 15%;
+}
+.select-button:hover {
+    background-color: #2E7B84;
+}
+.select-button:last-child {
+    margin-right: 0;
+}
+.hidden-input {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    label.checkbox-label {
+        margin-left: 5px;
+    }
+}

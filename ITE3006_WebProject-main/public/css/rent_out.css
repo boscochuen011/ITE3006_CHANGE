@@ -1,0 +1,47 @@
+.title{
+    font-size: 20px;
+    padding: 0 5%;
+}
+.select-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #CEE8EA;
+    border-radius: 70px;
+    width: 100%;
+    height: 600px;
+}
+.size{
+    padding: 0 6%; 
+}
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.select-button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3A9CA3;
+    border-radius: 70px;
+    font-size: 16px;
+    color: white;
+    margin-top: 20px;
+    padding: 15px 32px;
+    cursor: pointer;
+}
+.select-button:hover {
+    background-color: #2E7B84;
+}
+.select-button:last-child {
+    margin-right: 0;
+}
+.hidden-input {
+    display: none;
+}
+.icon-container .fa-arrow-up-from-bracket {
+    font-size: 48px; 
+}

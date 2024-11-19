@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent out</title>
+    <script src="https://kit.fontawesome.com/22b529d74e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/rent_out.css">
+    <link rel="shortcut icon" href="../images/title_icon.ico" type="image/x-icon">
+</head>
+<body>
+    <header></header>
+    <section>
+        <div class="size">
+            <div class="title">
+                <h1>What product do you want to rent out today?</h1>
+            </div>
+            <div class="select-box">
+                <div class="icon-container">
+                    <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                </div>
+                <input type="file" id="select-button" class="hidden-input" name="filename">
+                <label for="select-button" class="select-button">Select Photo</label>
+            </div>
+        </div>
+    </section>
+    <footer></footer>
+    <script>
+        document.getElementById('select-button').addEventListener('change', function() {
+            if (this.files && this.files[0]) {
+                window.location.href = 'details.html';
+            }
+        });
+    </script>
+    <script src="../js/navbar.js"></script>
+</div>
+</body>
+</html>

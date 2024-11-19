@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Details</title>
+    <script src="https://kit.fontawesome.com/22b529d74e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/details.css">
+    <link rel="shortcut icon" href="../images/title_icon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header></header>
+    <section>
+        <div class="size">
+            <form id="myForm">
+                <h2>What are you renting today?</h2>
+                <label for="type">Type:</label>
+                <select id="type" name="type" class="textarea" class="detail-select" required>
+                    <option value="electronics">Electronics</option>
+                    <option value="fashion">Fashion</option>
+                    <option value="services">Services</option>
+                    <option value="cars">Cars</option>
+                    <option value="property">Property</option>
+                </select>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" class="textarea" required>
+
+                <h3>About product</h3>
+                <label for="newness">Newness:</label>
+                <select id="newness" name="newness" class="detail-select" required>
+                    <option value="100">100%</option>
+                    <option value="70">70%</option>
+                    <option value="50">50%</option>
+                    <option value="30">30%</option>
+                </select>
+
+                <label for="deposit">Deposit (HKD$):</label>
+                <input type="number" id="deposit" name="deposit" class="textarea" min="0" required>
+
+                <label for="price">Price (HKD$):</label>
+                <input type="number" id="price" name="price" class="textarea" min="0" required>
+
+                <label for="rental_days">Rental days:</label>
+                <input type="number" id="rental_days" name="rental_days" class="textarea" min="0" required>
+
+                <label for="description">Product description (optional):</label>
+                <textarea id="description" name="description" class="description"></textarea>
+
+                <div class="checkbox-container">
+                    <label for="mail_delivery">Mail and home delivery</label>
+                    <input type="checkbox" id="mail_delivery" name="mail_delivery">
+
+                </div>
+
+                <div class="checkbox-container">
+                    <label for="face_to_face">Face to face</label>
+                    <input type="checkbox" id="face_to_face" name="face_to_face">
+                    <input type="file" id="select-button" class="hidden-input" name="filename">
+                </div>
+                    <label for="select-button" class="select-button">Select Photo</label>
+                    <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer></footer>
+    <script src="../js/navbar.js"></script>
+    <script src="../js/details.js"></script>
+</body>
+
+</html>
